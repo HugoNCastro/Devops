@@ -18,8 +18,8 @@ Vagrant.configure("2") do |config|
 	config.vm.provider :aws do |aws, override|
 		aws.region = "us-west-2"
 		aws.instance_type ="t2.micro"
-		aws.access_key_id = "AKIAIL2ZA2YQEKRE236A"
-		aws.secret_key_id = "/o8Cbhuxq77uSGicHk392ZSaHt4fRUT7Z12pBA8M"
+		aws.access_key_id = 
+		aws.secret_key_id = 
 		aws.keypair_name = "rootkey(1)"
 		aws.ami="ami-06c91614a9be71d28"
 		aws.security_groups=["devops"]
